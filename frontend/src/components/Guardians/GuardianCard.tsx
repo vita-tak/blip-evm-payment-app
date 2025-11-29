@@ -60,7 +60,15 @@ export function GuardianCard({
         case 'active':
           return `Guardian since ${formatDate(date)}`;
         case 'pending':
-          return 'Invitation sent';
+          return `Invitation sent, ${formatDate(date)}`;
+        case 'declined':
+          return `Invitation declined, ${formatDate(date)}`;
+        case 'cancelled':
+          return `Invitation cancelled, ${formatDate(date)}`;
+        case 'removed':
+          return `Removed as guardian, ${formatDate(date)}`;
+        case 'left':
+          return `Left guardian role, ${formatDate(date)}`;
         default:
           return 'Status unknown';
       }
@@ -69,7 +77,15 @@ export function GuardianCard({
         case 'active':
           return `Protecting since ${formatDate(date)}`;
         case 'pending':
-          return 'Invitation received';
+          return `Invitation received, ${formatDate(date)}`;
+        case 'declined':
+          return `Declined guardian role, ${formatDate(date)}`;
+        case 'cancelled':
+          return `Proposal cancelled, ${formatDate(date)}`;
+        case 'removed':
+          return `Removed by recipient, ${formatDate(date)}`;
+        case 'left':
+          return `Left guardian role, ${formatDate(date)}`;
         default:
           return 'Status unknown';
       }
