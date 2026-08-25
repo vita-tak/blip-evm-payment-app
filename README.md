@@ -1,7 +1,7 @@
 # Blip Payment
 
 A decentralized peer-to-peer payment application on Ethereum.
-Stablecoin transfers with a guardian approval system that requires
+Stablecoin transfers on multiple L2s with a guardian approval system that requires
 explicit approval before incoming payments are accepted.
 
 ## How it works
