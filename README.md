@@ -23,8 +23,6 @@ without relying on a central intermediary.
 
 ## Tech Stack
 
-Deployed to Polygon Amoy. [View contract on Polyscan](https://amoy.polygonscan.com/address/0x70bf1cA32Bf17bd05C014E80cAb4bf770a2c3E6B)
-
 | Layer | Technology |
 |---|---|
 | Smart Contracts | Solidity, Foundry |
