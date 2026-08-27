@@ -2,7 +2,9 @@
 
 A decentralized peer-to-peer payment application on Ethereum.
 Stablecoin transfers with a guardian approval system that requires
-explicit approval before incoming payments are accepted. Deployed to Polygon Amoy.
+explicit approval before incoming payments are accepted.
+
+Deployed to Polygon Amoy testnet.
 
 ## How it works
 
